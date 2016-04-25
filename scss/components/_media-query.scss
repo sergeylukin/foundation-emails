@@ -113,5 +113,26 @@
   table.menu[align="center"] {
     width: auto !important;
   }
+
+  // expand buttons on small only
+  table.button.small-expand,
+  table.button.small-expanded {
+    width: 100% !important;
+
+    table {
+      width: 100% !important;
+
+      a {
+        text-align: center !important;
+        width: 100% !important;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    center {
+      min-width: 0;
+    }
+  }
 }
 
