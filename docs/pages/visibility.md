@@ -30,4 +30,4 @@ Due to Outlook's lack of support for certain CSS properties, the Foundation for 
 </callout>
 ```
 
-*note - `.hide-for-large` is not supported on Gmail and Yahoo email clients.*
+*note - in order to hide element in Gmail or Yahoo email clients wrap that element with div and apply `.hide-for-large` class on that div.
